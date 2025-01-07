@@ -18,7 +18,7 @@ This application provides a GUI for sending commands to CAN interfaces. It allow
 #### Running the Application
 To run the CAN Interface Controller, execute the following command in the terminal:
 ```bash
-python can_interface_controller.py
+python ChangeId.py
 ```
 
 ### 2. CAN Bus Sniffer
@@ -27,7 +27,7 @@ The CAN Bus Sniffer application is designed to monitor and log CAN bus traffic. 
 #### Running the Application
 To run the CAN Bus Sniffer, execute the following command in the terminal:
 ```bash
-python can_bus_sniffer.py
+python Sniffer.py
 ```
 
 ## Installation
@@ -44,7 +44,7 @@ pip install python-can tk
 4. Use the GUI to interact with the CAN interfaces.
 
 ## Dependencies
-- Python 3.6 or higher
+- Python 3.11 or higher
 - tkinter
 - python-can
 
